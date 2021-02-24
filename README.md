@@ -32,11 +32,11 @@ For debugging purposes, gdb will be used to analyze the memory management proces
 ``r``
 *with loaded symbols from file command*
 *the file should run and should stop in your first breakpoint*
-![Code ran and stopped at first breakpoint](https://github.com/ignaciojvig/memory-management/tree/main/debug-snapshots/debugger.png)
+![Code ran and stopped at first breakpoint](https://github.com/ignaciojvig/memory-management/blob/main/debug-snapshots/debugger.png)
 
 **Inspect Stack in a given moment**
 ``bt <number of stacked calls>``
-![Inspecting Stack](https://github.com/ignaciojvig/memory-management/tree/main/debug-snapshots/stack.png)
+![Inspecting Stack](https://github.com/ignaciojvig/memory-management/blob/main/debug-snapshots/stack.png)
 
 **Inspect Local Variables**
 ``info locals``
@@ -49,7 +49,7 @@ For debugging purposes, gdb will be used to analyze the memory management proces
 
 ****
 Difference between a variable in stack and a variable allocated in heap
-![Difference between a variable in stack and a variable allocated in heap](https://github.com/ignaciojvig/memory-management/tree/main/debug-snapshots/heapxstack-variables.png)
+![Difference between a variable in stack and a variable allocated in heap](https://github.com/ignaciojvig/memory-management/blob/main/debug-snapshots/heapxstack-variables.png)
 *For the dynamic allocation, we're using Box, which is a smart pointer in Rust*
 *e is actually showing his address on the heap*
 
